@@ -4,6 +4,17 @@ import org.testng.annotations.Test;
 
 public class Sample {
 
+@Test
+	
+	
+	public void tc11() {
+    System.out.println("test1");
+	}
+	
+	
+	public void tc21() {
+   System.out.println("test2");
+	}
 	@Test
 
 	public void tc1() {
@@ -31,5 +42,4 @@ public class Sample {
 	public void tc5() {
 		System.out.println("test5");
 	}
-
 }
